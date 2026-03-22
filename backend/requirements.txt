@@ -1,0 +1,12 @@
+flask
+flask-cors
+flask-jwt-extended
+flask-bcrypt
+python-dotenv
+google-generativeai
+groq
+reportlab
+PyPDF2
+python-docx
+psycopg2-binary
+gunicorn
