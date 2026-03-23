@@ -1,6 +1,6 @@
 # SmartAcademic 🎓
 **AI-Powered Education Management System**  
-Built for VIBECODE Hackathon 2025 by OSEN
+Built for Hackathon 2025 by OSEN
 
 ---
 

@@ -130,7 +130,7 @@ export default function StudentProfile() {
           </div>
           <div style={{ display:'flex', alignItems:'center', gap:12, padding:'14px 18px', background:'linear-gradient(135deg,#F8F4FF,#EEF0FF)', borderRadius:14 }}>
             <div style={{ fontSize:28 }}>🎓</div>
-            <div><div style={{ fontSize:13, fontWeight:700, color:'#6347D1' }}>SmartAcademic</div><div style={{ fontSize:11, color:'#6347D1', opacity:0.75 }}>AI-Powered Education · VIBECODE 2025</div></div>
+            <div><div style={{ fontSize:13, fontWeight:700, color:'#6347D1' }}>SmartAcademic</div><div style={{ fontSize:11, color:'#6347D1', opacity:0.75 }}>AI-Powered Education Platform</div></div>
             <div style={{ marginLeft:'auto', fontSize:11, color:'#6347D1', fontWeight:600, opacity:0.6 }}>v3.0</div>
           </div>
         </div>

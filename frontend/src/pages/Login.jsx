@@ -70,7 +70,7 @@ export default function Login() {
         {/* ── RIGHT WHITE FORM ── */}
         <div className="login-right">
           <div style={{ marginBottom: 20, fontSize: 13, fontWeight: 600, color: 'var(--primary)', background: 'var(--primary-bg)', display: 'inline-flex', alignItems: 'center', gap: 6, padding: '5px 14px', borderRadius: 50 }}>
-            ✨ VIBECODE Hackathon 2025
+            ✨ AI-Powered Education Platform
           </div>
           <div className="lr-title">Welcome Back! 👋</div>
           <div className="lr-sub">Sign in to access your academic portal</div>
@@ -142,7 +142,7 @@ export default function Login() {
                       cursor: 'pointer', transition: 'all 0.15s', fontFamily: 'var(--font)',
                       width: '100%', textAlign: 'left',
                     }}
-                    onMouseEnter={e => { if (!(id === t.id && role === 'teacher')) { e.currentTarget.style.borderColor = '#C5CAFF'; e.currentTarget.style.background = '#F5F6FF'; }}}
+                    onMouseEnter={e => { if (!(id === t.id && role === 'teacher')) { e.currentTarget.style.borderColor = '#C5CAFF'; e.currentTarget.style.background = 'var(--surface2)'; }}}
                     onMouseLeave={e => { if (!(id === t.id && role === 'teacher')) { e.currentTarget.style.borderColor = 'var(--border2)'; e.currentTarget.style.background = 'var(--surface2)'; }}}
                   >
                     <div style={{ display: 'flex', alignItems: 'center', gap: 9 }}>
@@ -179,7 +179,7 @@ export default function Login() {
                       cursor: 'pointer', transition: 'all 0.15s', fontFamily: 'var(--font)',
                       width: '100%', textAlign: 'left',
                     }}
-                    onMouseEnter={e => { if (!(id === s.id && role === 'student')) { e.currentTarget.style.borderColor = '#A8E6C3'; e.currentTarget.style.background = '#F0FBF4'; }}}
+                    onMouseEnter={e => { if (!(id === s.id && role === 'student')) { e.currentTarget.style.borderColor = '#A8E6C3'; e.currentTarget.style.background = 'var(--surface2)'; }}}
                     onMouseLeave={e => { if (!(id === s.id && role === 'student')) { e.currentTarget.style.borderColor = 'var(--border2)'; e.currentTarget.style.background = 'var(--surface2)'; }}}
                   >
                     <div style={{ display: 'flex', alignItems: 'center', gap: 9 }}>
@@ -203,7 +203,7 @@ export default function Login() {
           </div>
 
           <div style={{ textAlign: 'center', marginTop: 16, fontSize: 11, color: 'var(--text3)' }}>
-            SmartAcademic · AI-Powered · VIBECODE 2025
+            SmartAcademic · AI-Powered Education
           </div>
         </div>
       </div>
